@@ -1,0 +1,51 @@
+/* @import "yourpackages" */
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0; }
+
+body {
+  background: #eee; }
+
+header {
+  padding: 1rem; }
+  header h1 {
+    margin: 0; }
+
+.content {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto; }
+
+.instructions {
+  margin-bottom: 4rem; }
+
+table.books {
+  width: 100%;
+  text-align: left; }
+  table.books th {
+    padding: 0.5rem 0.5rem 0.5rem 0; }
+    table.books th .attribute {
+      line-height: 30px;
+      float: left;
+      padding-right: 0.5rem; }
+    table.books th .icons {
+      position: relative;
+      float: left; }
+    table.books th i {
+      color: #589bd5;
+      cursor: pointer;
+      position: absolute;
+      font-size: 12px; }
+      table.books th i.active {
+        color: #333;
+        cursor: auto; }
+      table.books th i.fa-chevron-up {
+        top: 0; }
+      table.books th i.fa-chevron-down {
+        top: 1rem; }
+  table.books td {
+    padding: 0.2rem 0; }
+
+/*# sourceMappingURL=app.css.map */
